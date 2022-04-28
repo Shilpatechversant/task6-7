@@ -9,7 +9,9 @@ input[type=number] select {
     box-sizing: border-box;
   }
   
-  
+  body{
+  background-color:#8de3cd;
+  }
   
   input[type=submit]:hover {
     background-color: #45a049;
@@ -31,13 +33,25 @@ input[type=number] select {
   .main_container
   {
   width: 500px;
+  align-content: center;
+  margin-top:50px;
+  margin-left:400px;
+
+  }
+
+    .res{
+    margin-left: 400px;
+    background-color: #7488b3;
+    width:250px;
+    text-align: center;
+    font-size: medium;
+
   }
   .btn-danger
   {
     width: 100%;
     background-color: #ff5511;
-    color: white;
-   
+    color: white;   
     margin: 2px 0;
     border: none;
     border-radius: 1px;
@@ -59,7 +73,7 @@ input[type=number] select {
   }
   
   .common-btn{
-    width: 100%;
+    width: 20%;
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
